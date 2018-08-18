@@ -3,10 +3,21 @@ body {
 }     
 
 h1 {
-    color: white;
+    color: rgb(63, 6, 63);
+    text-decoration: underline;
+    line-height: 15px;
 } 
 
 p {
     font-size: 20px;
-    color: white;
+    color: black;
 }  
+
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+  }
